@@ -1,0 +1,66 @@
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Sa 26 Sep 2015 13:54:03 CEST
+
+BeginCmp
+TimeStamp = /56067D72;
+Reference = P1;
+ValeurCmp = CONN_6;
+IdModule  = SIL-6;
+EndCmp
+
+BeginCmp
+TimeStamp = /56067C85;
+Reference = U1;
+ValeurCmp = APA102;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /56067CEB;
+Reference = U2;
+ValeurCmp = APA102;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /56067CF1;
+Reference = U3;
+ValeurCmp = APA102;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /56067CF7;
+Reference = U4;
+ValeurCmp = APA102;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /56067CFD;
+Reference = U5;
+ValeurCmp = APA102;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /56067D03;
+Reference = U6;
+ValeurCmp = APA102;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /56067D09;
+Reference = U7;
+ValeurCmp = APA102;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /56067D0F;
+Reference = U8;
+ValeurCmp = APA102;
+IdModule  = ;
+EndCmp
+
+EndListe

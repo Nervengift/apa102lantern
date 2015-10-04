@@ -1,0 +1,279 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:crumpschemes
+LIBS:apa102c-laterne-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "26 sep 2015"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L APA102 U1
+U 1 1 56067C85
+P 2500 2150
+F 0 "U1" H 2300 2450 60  0000 C CNN
+F 1 "APA102" H 2400 1850 60  0000 C CNN
+F 2 "CrumpPrints:APA102" H 2500 1700 60  0001 C CNN
+F 3 "" H 2500 1700 60  0000 C CNN
+	1    2500 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L APA102 U2
+U 1 1 56067CEB
+P 3500 2150
+F 0 "U2" H 3300 2450 60  0000 C CNN
+F 1 "APA102" H 3400 1850 60  0000 C CNN
+F 2 "CrumpPrints:APA102" H 3500 1700 60  0001 C CNN
+F 3 "" H 3500 1700 60  0000 C CNN
+	1    3500 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L APA102 U3
+U 1 1 56067CF1
+P 4500 2150
+F 0 "U3" H 4300 2450 60  0000 C CNN
+F 1 "APA102" H 4400 1850 60  0000 C CNN
+F 2 "CrumpPrints:APA102" H 4500 1700 60  0001 C CNN
+F 3 "" H 4500 1700 60  0000 C CNN
+	1    4500 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L APA102 U4
+U 1 1 56067CF7
+P 5500 2150
+F 0 "U4" H 5300 2450 60  0000 C CNN
+F 1 "APA102" H 5400 1850 60  0000 C CNN
+F 2 "CrumpPrints:APA102" H 5500 1700 60  0001 C CNN
+F 3 "" H 5500 1700 60  0000 C CNN
+	1    5500 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L APA102 U5
+U 1 1 56067CFD
+P 6500 2150
+F 0 "U5" H 6300 2450 60  0000 C CNN
+F 1 "APA102" H 6400 1850 60  0000 C CNN
+F 2 "CrumpPrints:APA102" H 6500 1700 60  0001 C CNN
+F 3 "" H 6500 1700 60  0000 C CNN
+	1    6500 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L APA102 U6
+U 1 1 56067D03
+P 7500 2150
+F 0 "U6" H 7300 2450 60  0000 C CNN
+F 1 "APA102" H 7400 1850 60  0000 C CNN
+F 2 "CrumpPrints:APA102" H 7500 1700 60  0001 C CNN
+F 3 "" H 7500 1700 60  0000 C CNN
+	1    7500 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L APA102 U7
+U 1 1 56067D09
+P 8500 2150
+F 0 "U7" H 8300 2450 60  0000 C CNN
+F 1 "APA102" H 8400 1850 60  0000 C CNN
+F 2 "CrumpPrints:APA102" H 8500 1700 60  0001 C CNN
+F 3 "" H 8500 1700 60  0000 C CNN
+	1    8500 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L APA102 U8
+U 1 1 56067D0F
+P 9500 2150
+F 0 "U8" H 9300 2450 60  0000 C CNN
+F 1 "APA102" H 9400 1850 60  0000 C CNN
+F 2 "CrumpPrints:APA102" H 9500 1700 60  0001 C CNN
+F 3 "" H 9500 1700 60  0000 C CNN
+	1    9500 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_6 P1
+U 1 1 56067D72
+P 1150 2150
+F 0 "P1" V 1100 2150 60  0000 C CNN
+F 1 "CONN_6" V 1200 2150 60  0000 C CNN
+F 2 "Connect:PINHEAD1-6" H 1150 2150 60  0000 C CNN
+F 3 "~" H 1150 2150 60  0000 C CNN
+	1    1150 2150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2950 2000 3050 2000
+Wire Wire Line
+	2950 2150 3050 2150
+Wire Wire Line
+	3950 2000 4050 2000
+Wire Wire Line
+	3950 2150 4050 2150
+Wire Wire Line
+	4950 2000 5050 2000
+Wire Wire Line
+	4950 2150 5050 2150
+Wire Wire Line
+	5950 2000 6050 2000
+Wire Wire Line
+	5950 2150 6050 2150
+Wire Wire Line
+	6950 2000 7050 2000
+Wire Wire Line
+	6950 2150 7050 2150
+Wire Wire Line
+	7950 2000 8050 2000
+Wire Wire Line
+	7950 2150 8050 2150
+Wire Wire Line
+	8950 2000 9050 2000
+Wire Wire Line
+	8950 2150 9050 2150
+Wire Wire Line
+	1500 2400 1900 2400
+Wire Wire Line
+	1900 2400 1900 2150
+Wire Wire Line
+	1900 2150 2050 2150
+Wire Wire Line
+	1500 2300 1850 2300
+Wire Wire Line
+	1850 2300 1850 2000
+Wire Wire Line
+	1850 2000 2050 2000
+Wire Wire Line
+	9950 1700 9950 2000
+Wire Wire Line
+	1550 1700 9950 1700
+Wire Wire Line
+	1500 1650 10000 1650
+Wire Wire Line
+	10000 1650 10000 2150
+Wire Wire Line
+	10000 2150 9950 2150
+Wire Wire Line
+	1500 1650 1500 1900
+Wire Wire Line
+	1550 1700 1550 2000
+Wire Wire Line
+	1550 2000 1500 2000
+Wire Wire Line
+	1500 2200 1600 2200
+Wire Wire Line
+	1600 2200 1600 2700
+Wire Wire Line
+	1600 2700 9950 2700
+Wire Wire Line
+	9950 2700 9950 2300
+Wire Wire Line
+	8950 2300 8950 2700
+Connection ~ 8950 2700
+Wire Wire Line
+	7950 2300 7950 2700
+Connection ~ 7950 2700
+Wire Wire Line
+	6950 2300 6950 2700
+Connection ~ 6950 2700
+Wire Wire Line
+	5950 2300 5950 2700
+Connection ~ 5950 2700
+Wire Wire Line
+	4950 2300 4950 2700
+Connection ~ 4950 2700
+Wire Wire Line
+	3950 2300 3950 2700
+Connection ~ 3950 2700
+Wire Wire Line
+	2950 2300 2950 2700
+Connection ~ 2950 2700
+Wire Wire Line
+	1500 2100 1650 2100
+Wire Wire Line
+	1650 2100 1650 2650
+Wire Wire Line
+	10200 2650 1650 2650
+Wire Wire Line
+	9050 2650 9050 2300
+Wire Wire Line
+	8050 2300 8050 2650
+Connection ~ 8050 2650
+Wire Wire Line
+	7050 2300 7050 2650
+Connection ~ 7050 2650
+Wire Wire Line
+	6050 2300 6050 2650
+Connection ~ 6050 2650
+Wire Wire Line
+	5050 2300 5050 2650
+Connection ~ 5050 2650
+Wire Wire Line
+	4050 2300 4050 2650
+Connection ~ 4050 2650
+Wire Wire Line
+	3050 2300 3050 2650
+Connection ~ 3050 2650
+Wire Wire Line
+	2050 2300 2050 2650
+Connection ~ 2050 2650
+$Comp
+L CONN_6 P2
+U 1 1 560ABF11
+P 10550 2150
+F 0 "P2" V 10500 2150 60  0000 C CNN
+F 1 "CONN_6" V 10600 2150 60  0000 C CNN
+F 2 "Connect:PINHEAD1-6" H 10550 2150 60  0000 C CNN
+F 3 "~" H 10550 2150 60  0000 C CNN
+	1    10550 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10200 1900 10200 2650
+Connection ~ 9050 2650
+Connection ~ 10200 2400
+Connection ~ 10200 2300
+Connection ~ 10200 2200
+Connection ~ 10200 2100
+Connection ~ 10200 2000
+$EndSCHEMATC

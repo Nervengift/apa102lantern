@@ -1,11 +1,11 @@
 (kicad_pcb (version 4) (host pcbnew "(2015-09-28 BZR 6225)-product")
 
   (general
-    (links 0)
-    (no_connects 0)
+    (links 55)
+    (no_connects 1)
     (area 133.299999 63.449999 196.900001 127.050001)
     (thickness 1.6)
-    (drawings 16)
+    (drawings 17)
     (tracks 141)
     (zones 0)
     (modules 26)
@@ -1436,6 +1436,9 @@
       (net 2 GND))
   )
 
+  (gr_text "github.com/\nNervengift/\napa102lantern" (at 165.1 123.19) (layer B.SilkS)
+    (effects (font (size 1 1) (thickness 0.1)) (justify mirror))
+  )
   (gr_text 5V (at 180.721 91.44) (layer B.SilkS)
     (effects (font (size 1 1) (thickness 0.1)) (justify mirror))
   )

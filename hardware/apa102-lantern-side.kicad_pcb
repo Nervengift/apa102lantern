@@ -5,7 +5,7 @@
     (no_connects 0)
     (area 114.249999 81.229999 139.750001 190.550001)
     (thickness 1.6)
-    (drawings 12)
+    (drawings 13)
     (tracks 81)
     (zones 0)
     (modules 11)
@@ -470,7 +470,7 @@
   )
 
   (module Symbols:Symbol_CreativeCommonsPublicDomain_SilkScreenTop_Small (layer B.Cu) (tedit 560FFB62) (tstamp 560FF841)
-    (at 134.62 130.81 270)
+    (at 134.62 133.35 270)
     (descr "Symbol, Creative Commons Public Domain, SilkScreenTop, Small,")
     (tags "Symbol, Creative Commons Public Domain, SilkScreen Top, Small,")
     (fp_text reference REF** (at 0.59944 7.29996 270) (layer B.SilkS) hide
@@ -833,6 +833,9 @@
     (fp_line (start -13.15056 2.3003) (end -13.75 2.39936) (layer B.SilkS) (width 0.15))
   )
 
+  (gr_text github.com/Nervengift/apa102lantern (at 118.11 134.62 90) (layer B.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
+  )
   (gr_text "led board" (at 134.62 166.37 90) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )

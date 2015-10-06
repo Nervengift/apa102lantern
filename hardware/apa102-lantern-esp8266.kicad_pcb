@@ -2,7 +2,7 @@
 
   (general
     (links 57)
-    (no_connects 1)
+    (no_connects 0)
     (area 133.299999 63.449999 196.900001 127.050001)
     (thickness 1.6)
     (drawings 22)
@@ -286,7 +286,7 @@
     (tags "capacitor 0603")
     (path /560CA788)
     (attr smd)
-    (fp_text reference C1 (at 0 1.905 90) (layer F.SilkS)
+    (fp_text reference C1 (at 3.09 0.09 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 100n (at 0 1.9 90) (layer F.Fab)
@@ -1454,7 +1454,7 @@
     (descr "Electrolytic Capacitor, vertical, diameter 6,3mm, RM 2,5mm, radial,")
     (tags "Electrolytic Capacitor, vertical, diameter 6,3mm, RM 2,5mm, Elko, Electrolytkondensator, Kondensator gepolt, Durchmesser 6,3mm, radial,")
     (path /560E7C5E)
-    (fp_text reference C3 (at 1.27 -5.08 270) (layer F.SilkS)
+    (fp_text reference C3 (at -2.93324 -0.01 360) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 100u (at 1.27 -0.01 360) (layer F.Fab)
